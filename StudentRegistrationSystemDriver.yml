@@ -1,0 +1,9 @@
+language: java
+jdk:
+- jdk1.8.0_101
+after_success:
+- mvn clean install
+notifications:
+email:
+recipients:
+- e.rice2@nuigalway.ie
